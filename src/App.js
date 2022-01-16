@@ -106,13 +106,7 @@ function App() {
                       and borthers were excited to welcome him into the family.
                     </p>
                   </div>
-                  <div className="col-lg-4 me-auto"><p className="lead">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p></div>
-              </div>
-              <div className="text-center mt-4">
-                  <a className="btn btn-xl btn-outline-light" href="https://startbootstrap.com/theme/freelancer/">
-                      <i className="fas fa-download me-2"></i>
-                      Free Download!
-                  </a>
+                  <div className="col-lg-4 me-auto"><p className="lead">We're all excited about the future for Dominic, and we're looking forward to the great things he'll accomplish.</p></div>
               </div>
           </div>
       </section>
@@ -122,31 +116,26 @@ function App() {
                   <div className="col-lg-4 mb-5 mb-lg-0">
                       <h4 className="text-uppercase mb-4">Location</h4>
                       <p className="lead mb-0">
-                          2215 John Daniel Drive
-                          <br />
-                          Clark, MO 65243
+                          Dayton, OH 45424
                       </p>
                   </div>
                   <div className="col-lg-4 mb-5 mb-lg-0">
                       <h4 className="text-uppercase mb-4">Around the Web</h4>
-                      <a className="btn btn-outline-light btn-social mx-1" href="#!"><i className="fab fa-fw fa-facebook-f"></i></a>
-                      <a className="btn btn-outline-light btn-social mx-1" href="#!"><i className="fab fa-fw fa-twitter"></i></a>
-                      <a className="btn btn-outline-light btn-social mx-1" href="#!"><i className="fab fa-fw fa-linkedin-in"></i></a>
-                      <a className="btn btn-outline-light btn-social mx-1" href="#!"><i className="fab fa-fw fa-dribbble"></i></a>
+                      <a className="btn btn-outline-light btn-social mx-1" href="https://www.facebook.com/vince.pecoraro" target="_blank"><i className="fab fa-fw fa-facebook-f"></i></a>
+                      <a className="btn btn-outline-light btn-social mx-1" href="https://twitter.com/pecoraro_vince" target="_blank"><i className="fab fa-fw fa-twitter"></i></a>
+                      <a className="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/vince-pecoraro-2620764" target="_blank"><i className="fab fa-fw fa-linkedin-in"></i></a>
                   </div>
                   <div className="col-lg-4">
-                      <h4 className="text-uppercase mb-4">About Freelancer</h4>
+                      <h4 className="text-uppercase mb-4">About the Developer</h4>
                       <p className="lead mb-0">
-                          Freelance is a free to use, MIT licensed Bootstrap theme created by
-                          <a href="http://startbootstrap.com">Start Bootstrap</a>
-                          .
+                          Developed by Jonathan Pecoraro, the Godfather of Dominic
                       </p>
                   </div>
               </div>
           </div>
       </footer>
       <div className="copyright py-4 text-center text-white">
-          <div className="container"><small>Copyright &copy; dabombdom.com 2021</small></div>
+          <div className="container"><small>Copyright &copy; dabombdom.com {new Date().getFullYear()}</small></div>
       </div>
       <div className="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
           <div className="modal-dialog modal-xl">
@@ -164,60 +153,48 @@ function App() {
                                   </div>
                                   <div className="row">
                                     <div className="col-lg-4 col-md-12 mb-4 mb-lg-0">
-                                      <a href="assets/img/birth/birth1.jpg" target="_blank">
-                                        <img
-                                          src={require('./img/birth/thumbnails/birth1_tn.jpg').default}
-                                          className="w-100 shadow-1-strong rounded mb-4"
-                                          alt="..."
-                                        />
-                                      </a>
+                                      <img
+                                        src={require('./img/birth/thumbnails/birth1_tn.jpg').default}
+                                        className="w-100 shadow-1-strong rounded mb-4"
+                                        alt="..."
+                                      />
                                       
-                                      <a href="assets/img/birth/birth2.jpg" target="_blank">
-                                        <img
-                                          src={require('./img/birth/thumbnails/birth2_tn.jpg').default}
-                                          className="w-100 shadow-1-strong rounded mb-4"
-                                          alt="..."
-                                        />
-                                      </a>
+                                      <img
+                                        src={require('./img/birth/thumbnails/birth2_tn.jpg').default}
+                                        className="w-100 shadow-1-strong rounded mb-4"
+                                        alt="..."
+                                      />
                                     </div>
 
                                     <div className="col-lg-4 mb-4 mb-lg-0">
-                                      <a href="assets/img/birth/birth3.jpg" target="_blank">
-                                        <img
-                                          src={require('./img/birth/thumbnails/birth3_tn.jpg').default}
-                                          className="w-100 shadow-1-strong rounded mb-4"
-                                          alt="..."
-                                        />
-                                      </a>
+                                      <img
+                                        src={require('./img/birth/thumbnails/birth3_tn.jpg').default}
+                                        className="w-100 shadow-1-strong rounded mb-4"
+                                        alt="..."
+                                      />
 
-                                      <a href="assets/img/birth/birth4.jpg" target="_blank">
-                                        <img
-                                          src={require('./img/birth/thumbnails/birth4_tn.jpg').default}
-                                          className="w-100 shadow-1-strong rounded mb-4"
-                                          alt="..."
-                                        />
-                                      </a>
+                                      <img
+                                        src={require('./img/birth/thumbnails/birth4_tn.jpg').default}
+                                        className="w-100 shadow-1-strong rounded mb-4"
+                                        alt="..."
+                                      />
                                     </div>
                                     
                                     <div className="col-lg-4 mb-4 mb-lg-0">
-                                      <a href="assets/img/birth/birth5.jpg" target="_blank">
-                                        <img
-                                          src={require('./img/birth/thumbnails/birth5_tn.jpg').default}
-                                          className="w-100 shadow-1-strong rounded mb-4"
-                                          alt="..."
-                                        />
-                                      </a>
+                                      <img
+                                        src={require('./img/birth/thumbnails/birth5_tn.jpg').default}
+                                        className="w-100 shadow-1-strong rounded mb-4"
+                                        alt="..."
+                                      />
 
-                                      <a href="assets/img/birth/birth6.jpg" target="_blank">
-                                        <img
-                                          src={require('./img/birth/thumbnails/birth6_tn.jpg').default}
-                                          className="w-100 shadow-1-strong rounded mb-4"
-                                          alt="..."
-                                        />
-                                      </a>
+                                      <img
+                                        src={require('./img/birth/thumbnails/birth6_tn.jpg').default}
+                                        className="w-100 shadow-1-strong rounded mb-4"
+                                        alt="..."
+                                      />
                                     </div>
                                   </div>
-                                  <p className="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                  <p className="mb-4">March 28th, 2020 marked a great day in history for the Pecoraro family. Dominic Steven was born and the whole family celebrated. Here are some images of Dominic from his first few weeks.</p>
                                   <button className="btn btn-primary" type="button" data-bs-dismiss="modal" aria-label="Close">
                                       <i className="fas fa-times fa-fw"></i>
                                       Close Window
@@ -243,8 +220,50 @@ function App() {
                                       <div className="divider-custom-icon"><i className="fas fa-star"></i></div>
                                       <div className="divider-custom-line"></div>
                                   </div>
-                                  <p>No photos to show</p>
-                                  <p className="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                  <div className="row">
+                                    <div className="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                                      <img
+                                        src={require('./img/baptism/thumbnails/baptism1_tn.jpg').default}
+                                        className="w-100 shadow-1-strong rounded mb-4"
+                                        alt="..."
+                                      />
+                                      
+                                      <img
+                                        src={require('./img/baptism/thumbnails/baptism2_tn.jpg').default}
+                                        className="w-100 shadow-1-strong rounded mb-4"
+                                        alt="..."
+                                      />
+                                    </div>
+
+                                    <div className="col-lg-4 mb-4 mb-lg-0">
+                                      <img
+                                        src={require('./img/baptism/thumbnails/baptism3_tn.jpg').default}
+                                        className="w-100 shadow-1-strong rounded mb-4"
+                                        alt="..."
+                                      />
+
+                                      <img
+                                        src={require('./img/baptism/thumbnails/baptism4_tn.jpg').default}
+                                        className="w-100 shadow-1-strong rounded mb-4"
+                                        alt="..."
+                                      />
+                                    </div>
+                                    
+                                    <div className="col-lg-4 mb-4 mb-lg-0">
+                                      <img
+                                        src={require('./img/baptism/thumbnails/baptism5_tn.jpg').default}
+                                        className="w-100 shadow-1-strong rounded mb-4"
+                                        alt="..."
+                                      />
+
+                                      <img
+                                        src={require('./img/baptism/thumbnails/baptism6_tn.jpg').default}
+                                        className="w-100 shadow-1-strong rounded mb-4"
+                                        alt="..."
+                                      />
+                                    </div>
+                                  </div>
+                                  <p className="mb-4">Dominic was baptised into the Catholic faith on December 6, 2020. The familiy gathered together and had a private baptism at the church. Uncle Jon and Aunt Ashley are proud Godparents for Dominic. We welcomed him into the faith and continue encouraging him to be the best Catholic he can be.</p>
                                   <button className="btn btn-primary" type="button" data-bs-dismiss="modal" aria-label="Close">
                                       <i className="fas fa-times fa-fw"></i>
                                       Close Window
@@ -272,60 +291,48 @@ function App() {
                                   </div>
                                   <div className="row">
                                     <div className="col-lg-4 col-md-12 mb-4 mb-lg-0">
-                                      <a href="assets/img/home/home1.jpg" target="_blank">
-                                        <img
-                                          src={require('./img/home/thumbnails/home1_tn.jpg').default}
-                                          className="w-100 shadow-1-strong rounded mb-4"
-                                          alt="..."
-                                        />
-                                      </a>
+                                      <img
+                                        src={require('./img/home/thumbnails/home1_tn.jpg').default}
+                                        className="w-100 shadow-1-strong rounded mb-4"
+                                        alt="..."
+                                      />
 
-                                      <a href="assets/img/home/home2.jpg" target="_blank">
-                                        <img
-                                          src={require('./img/home/thumbnails/home2_tn.jpg').default}
-                                          className="w-100 shadow-1-strong rounded mb-4"
-                                          alt="..."
-                                        />
-                                      </a>
+                                      <img
+                                        src={require('./img/home/thumbnails/home2_tn.jpg').default}
+                                        className="w-100 shadow-1-strong rounded mb-4"
+                                        alt="..."
+                                      />
                                     </div>
 
                                     <div className="col-lg-4 mb-4 mb-lg-0">
-                                      <a href="assets/img/home/home3.jpg" target="_blank">
-                                        <img
-                                          src={require('./img/home/thumbnails/home3_tn.jpg').default}
-                                          className="w-100 shadow-1-strong rounded mb-4"
-                                          alt="..."
-                                        />
-                                      </a>
+                                      <img
+                                        src={require('./img/home/thumbnails/home3_tn.jpg').default}
+                                        className="w-100 shadow-1-strong rounded mb-4"
+                                        alt="..."
+                                      />
 
-                                      <a href="assets/img/home/home4.jpg" target="_blank">
-                                        <img
-                                          src={require('./img/home/thumbnails/home4_tn.jpg').default}
-                                          className="w-100 shadow-1-strong rounded mb-4"
-                                          alt="..."
-                                        />
-                                      </a>
+                                      <img
+                                        src={require('./img/home/thumbnails/home4_tn.jpg').default}
+                                        className="w-100 shadow-1-strong rounded mb-4"
+                                        alt="..."
+                                      />
                                     </div>
                                     
                                     <div className="col-lg-4 mb-4 mb-lg-0">
-                                      <a href="assets/img/home/home5.jpg" target="_blank">
-                                        <img
-                                          src={require('./img/home/thumbnails/home5_tn.jpg').default}
-                                          className="w-100 shadow-1-strong rounded mb-4"
-                                          alt="..."
-                                        />
-                                      </a>
+                                      <img
+                                        src={require('./img/home/thumbnails/home5_tn.jpg').default}
+                                        className="w-100 shadow-1-strong rounded mb-4"
+                                        alt="..."
+                                      />
 
-                                      <a href="assets/img/home/home6.jpg" target="_blank">
-                                        <img
-                                          src={require('./img/home/thumbnails/home6_tn.jpg').default}
-                                          className="w-100 shadow-1-strong rounded mb-4"
-                                          alt="..."
-                                        />
-                                      </a>
+                                      <img
+                                        src={require('./img/home/thumbnails/home6_tn.jpg').default}
+                                        className="w-100 shadow-1-strong rounded mb-4"
+                                        alt="..."
+                                      />
                                     </div>
                                   </div>
-                                  <p className="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                  <p className="mb-4">Dominic is always having a great time with his family at home. He enjoys wrestling with his brothers and sister, and he's always excited to get involved with whatever his siblings are up to.</p>
                                   <button className="btn btn-primary" type="button" data-bs-dismiss="modal" aria-label="Close">
                                       <i className="fas fa-times fa-fw"></i>
                                       Close Window
@@ -351,8 +358,22 @@ function App() {
                                       <div className="divider-custom-icon"><i className="fas fa-star"></i></div>
                                       <div className="divider-custom-line"></div>
                                   </div>
-                                  <p>No photos to show</p>
-                                  <p className="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                  <div className="row">
+                                    <div className="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                                      <img
+                                        src={require('./img/birthday/thumbnails/birthday1_tn.jpg').default}
+                                        className="w-100 shadow-1-strong rounded mb-4"
+                                        alt="..."
+                                      />
+                                      
+                                      <img
+                                        src={require('./img/birthday/thumbnails/birthday2_tn.jpg').default}
+                                        className="w-100 shadow-1-strong rounded mb-4"
+                                        alt="..."
+                                      />
+                                    </div>
+                                  </div>
+                                  <p className="mb-4">Dominic parties hard on his birthday. He really enjoyed the donut cake on his first birthday. He has another one coming up in a few months. We're all excited to see what he does as he gets older.</p>
                                   <button className="btn btn-primary" type="button" data-bs-dismiss="modal" aria-label="Close">
                                       <i className="fas fa-times fa-fw"></i>
                                       Close Window
@@ -388,16 +409,15 @@ function App() {
                                         />
                                       </a> */}
                                       
-                                      <a href="assets/img/holiday/holiday2.jpg" target="_blank">
-                                        <img
-                                          src={require('./img/holiday/thumbnails/holiday2_tn.jpg').default}
-                                          className="w-100 shadow-1-strong rounded mb-4"
-                                          alt="With big sister Fiona"
-                                        />
-                                      </a>
+                                      
+                                      <img
+                                        src={require('./img/holiday/thumbnails/holiday2_tn.jpg').default}
+                                        className="w-100 shadow-1-strong rounded mb-4"
+                                        alt="With big sister Fiona"
+                                      />
                                     </div>
                                   </div>
-                                  <p className="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                  <p className="mb-4">The holidays are an excited time for everyone! Dominic was a happy boy getting all dressed up for Christmas and New Years. He is one sharp looking guy...and super cute too.</p>
                                   <button className="btn btn-primary" type="button" data-bs-dismiss="modal" aria-label="Close">
                                       <i className="fas fa-times fa-fw"></i>
                                       Close Window
@@ -425,60 +445,48 @@ function App() {
                                   </div>
                                   <div className="row">
                                     <div className="col-lg-4 col-md-12 mb-4 mb-lg-0">
-                                      <a href="assets/img/playtime/playtime1.jpg" target="_blank">
-                                        <img
-                                          src={require('./img/playtime/thumbnails/playtime1_tn.jpg').default}
-                                          className="w-100 shadow-1-strong rounded mb-4"
-                                          alt="..."
-                                        />
-                                      </a>
+                                      <img
+                                        src={require('./img/playtime/thumbnails/playtime1_tn.jpg').default}
+                                        className="w-100 shadow-1-strong rounded mb-4"
+                                        alt="..."
+                                      />
 
-                                      <a href="assets/img/playtime/playtime2.jpg" target="_blank">
-                                        <img
-                                          src={require('./img/playtime/thumbnails/playtime2_tn.jpg').default}
-                                          className="w-100 shadow-1-strong rounded mb-4"
-                                          alt="..."
-                                        />
-                                      </a>
+                                      <img
+                                        src={require('./img/playtime/thumbnails/playtime2_tn.jpg').default}
+                                        className="w-100 shadow-1-strong rounded mb-4"
+                                        alt="..."
+                                      />
                                     </div>
 
                                     <div className="col-lg-4 mb-4 mb-lg-0">
-                                      <a href="assets/img/playtime/playtime3.jpg" target="_blank">
-                                        <img
-                                          src={require('./img/playtime/thumbnails/playtime3_tn.jpg').default}
-                                          className="w-100 shadow-1-strong rounded mb-4"
-                                          alt="..."
-                                        />
-                                      </a>
+                                      <img
+                                        src={require('./img/playtime/thumbnails/playtime3_tn.jpg').default}
+                                        className="w-100 shadow-1-strong rounded mb-4"
+                                        alt="..."
+                                      />
 
-                                      <a href="assets/img/playtime/playtime4.jpg" target="_blank">
-                                        <img
-                                          src={require('./img/playtime/thumbnails/playtime4_tn.jpg').default}
-                                          className="w-100 shadow-1-strong rounded mb-4"
-                                          alt="..."
-                                        />
-                                      </a>
+                                      <img
+                                        src={require('./img/playtime/thumbnails/playtime4_tn.jpg').default}
+                                        className="w-100 shadow-1-strong rounded mb-4"
+                                        alt="..."
+                                      />
                                     </div>
                                     
                                     <div className="col-lg-4 mb-4 mb-lg-0">
-                                      <a href="assets/img/playtime/playtime5.jpg" target="_blank">
-                                        <img
-                                          src={require('./img/playtime/thumbnails/playtime5_tn.jpg').default}
-                                          className="w-100 shadow-1-strong rounded mb-4"
-                                          alt="..."
-                                        />
-                                      </a>
+                                      <img
+                                        src={require('./img/playtime/thumbnails/playtime5_tn.jpg').default}
+                                        className="w-100 shadow-1-strong rounded mb-4"
+                                        alt="..."
+                                      />
 
-                                      <a href="assets/img/playtime/playtime6.jpg" target="_blank">
-                                        <img
-                                          src={require('./img/playtime/thumbnails/playtime6_tn.jpg').default}
-                                          className="w-100 shadow-1-strong rounded mb-4"
-                                          alt="..."
-                                        />
-                                      </a>
+                                      <img
+                                        src={require('./img/playtime/thumbnails/playtime6_tn.jpg').default}
+                                        className="w-100 shadow-1-strong rounded mb-4"
+                                        alt="..."
+                                      />
                                     </div>
                                   </div>
-                                  <p className="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                  <p className="mb-4">Playtme is the best time. Dominic is an easy going kind of kid. He enjoys playing with his toys at home, but he's also always up for some playtime at the park. He enjoys swinging, running around, and getting in some good sibling play time.</p>
                                   <button className="btn btn-primary" type="button" data-bs-dismiss="modal" aria-label="Close">
                                       <i className="fas fa-times fa-fw"></i>
                                       Close Window
